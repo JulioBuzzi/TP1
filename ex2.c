@@ -6,7 +6,7 @@
 bool isPalindromo (char palavra[]) {
     int i=0, j=strlen(palavra) - 1;
     bool flag = true;
-   
+
    while(i < j) {
     if(palavra[i] != palavra[j]) {
         flag = false;
@@ -15,7 +15,7 @@ bool isPalindromo (char palavra[]) {
     j--;
    }
 
-   return flag;
+return flag;
 }
 
 int main() {
